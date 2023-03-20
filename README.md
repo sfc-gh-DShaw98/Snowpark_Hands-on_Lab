@@ -29,3 +29,7 @@ Log into Visual Studio Code as follows:
  - DATABASE: snowpark_workshop
  - SCHEMA: campaign_demo
  - WAREHOUSE: snowparkws_wh
+ 
+ ![image](https://user-images.githubusercontent.com/120119246/226482767-21dccaba-158e-4523-add8-42a9092a2eab.png)
+
+**Step 3 - Walk through an run Snowpark_For_Python notebook**
