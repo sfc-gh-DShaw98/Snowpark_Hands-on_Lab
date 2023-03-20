@@ -69,4 +69,4 @@ GRANT CREATE FUNCTION ON SCHEMA snowpark_workshop.campaign_demo TO ROLE snowpark
 GRANT CREATE PROCEDURE ON SCHEMA snowpark_workshop.campaign_demo TO ROLE snowpark_workshop_role;
 GRANT CREATE TABLE ON SCHEMA snowpark_workshop.campaign_demo TO ROLE snowpark_workshop_role;
 GRANT CREATE VIEW ON SCHEMA snowpark_workshop.campaign_demo TO ROLE snowpark_workshop_role;
-GRANT ALL ON WAREHOUSE SNOWPARKWS_WH TO ROLE snowpark_workshop_role;
+GRANT ALL ON WAREHOUSE snowparkws_wh TO ROLE snowpark_workshop_role;
