@@ -33,3 +33,4 @@ Log into Visual Studio Code as follows:
  ![image](https://user-images.githubusercontent.com/120119246/226482767-21dccaba-158e-4523-add8-42a9092a2eab.png)
 
 **Step 3 - Walk through an run Snowpark_For_Python notebook**
+https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_For_Python.ipynb
