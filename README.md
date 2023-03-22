@@ -72,5 +72,9 @@ Log into Visual Studio Code as follows:
 ![image](https://user-images.githubusercontent.com/120119246/227031230-af0684f6-6a6a-48d6-a477-d0bb4ecfcd90.png)
 
 - Go to the Snowpark_For_Python.ipynb file
+- Read through the Objective and Instructions
+- Execute the code to import required Snowpark, json, pandas and logging libraries
+- ![image](https://user-images.githubusercontent.com/120119246/227032700-92fc5265-943f-44c6-80b0-227fd121c765.png)
+- Execute the code to user your connection.json file 
 
 
