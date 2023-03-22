@@ -69,12 +69,11 @@ Log into Visual Studio Code as follows:
   - warehouse: snowparkws_wh
   - database: snowpark_workshop
   - schema: campaign_demo
-![image](https://user-images.githubusercontent.com/120119246/227031230-af0684f6-6a6a-48d6-a477-d0bb4ecfcd90.png)
+![image](https://user-images.githubusercontent.com/120119246/227032958-a69b85a5-8546-4446-8103-02763436c7b8.png)
 
 - Go to the Snowpark_For_Python.ipynb file
 - Read through the Objective and Instructions
 - Execute the code to import required Snowpark, json, pandas and logging libraries
-- ![image](https://user-images.githubusercontent.com/120119246/227032700-92fc5265-943f-44c6-80b0-227fd121c765.png)
 - Execute the code to user your connection.json file 
 
 
