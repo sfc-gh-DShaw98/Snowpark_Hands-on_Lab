@@ -77,11 +77,13 @@ Trying to determine your Snowflake account name? Log into Snowflake. Click your 
 
 - Go to the Snowpark_For_Python.ipynb file
 - Ensure you have selected snowpark (Python 3.8.13) as your Python kernel
-- ![image](https://user-images.githubusercontent.com/120119246/227042426-9748ad79-6941-4508-873d-18b1f9fb1398.png)
+![image](https://user-images.githubusercontent.com/120119246/227043146-9a9bde34-3afc-4285-9453-a18fe7556e55.png)
+
 
 - Read through the Objective and Instructions
-- Execute the code to import required Snowpark, json, pandas and logging libraries
-- ![image](https://user-images.githubusercontent.com/120119246/227033232-3cc2a43e-53cb-4469-8413-6a2658048481.png)
+- Execute the code to import required Snowpark, json, pandas and logging libraries. Ensure you get a green check.
+![image](https://user-images.githubusercontent.com/120119246/227043084-c92a36ac-7cd7-4fcf-9163-d8c86f458fbe.png)
+
 
 - Execute the code to user your connection.json file 
 
