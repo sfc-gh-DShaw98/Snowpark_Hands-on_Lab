@@ -62,15 +62,14 @@ Log into Visual Studio Code as follows:
 ![image](https://user-images.githubusercontent.com/120119246/227010286-4db464d3-03f7-460c-942a-1b8d3498a813.png)
 
 - Go to the connection.json file and update as follows:
-- {
-    "account"   : "(update with your Snowflake account)",
-    "user"      : "(update with your user)",
-    "password"  : "(update with your password)",
-    "role"      : "snowpark_workshop_role",
-    "warehouse" : "snowparkws_wh",
-    "database"  : "snowpark_workshop",
-    "schema"    : "campaign_demo"
-  }
+  - account: update with your Snowflake account
+  - user: update with your user
+  - password: update with your password
+  - role: snowpark_workshop_role
+  - warehouse: snowparkws_wh
+  - database: snowpark_workshop
+  - schema: campaign_demo
+
 - Go to the Snowpark_For_Python.ipynb file
 
 
