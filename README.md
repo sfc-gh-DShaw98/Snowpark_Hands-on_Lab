@@ -35,7 +35,7 @@ Prerequisites
 - conda install -c https://repo.anaconda.com/pkgs/snowflake snowflake-snowpark-python pandas notebook scikit-learn cachetools
 - Update connection.json with your Snowflake account details and credentials
 
-TIP: We suggest installing Visual Studio Code (https://code.visualstudio.com/Suggest) on your computer. Check out the Visual Studio Code homepage for a link to the download page. Ensure the Python extension is installed. Search for and install the "Python" extension (from Microsoft) in the Extensions pane in VS Code. Also ensure Snowflake extension installed. Search for and install the "Snowflake" extension (from Snowflake) in the Extensions pane in VS Code.
+TIP: We suggest installing Visual Studio Code (https://code.visualstudio.com/Suggest) on your computer. Check out the Visual Studio Code homepage for a link to the download page. Ensure the Python extension is installed. Search for and install the "Python" extension (from Microsoft) in the Extensions pane in VS Code. Also ensure Snowflake extension installed. Search for and install the "Snowflake" extension (from Snowflake) in the Extensions pane in VS Code. We also recommend installing GitHub Desktop on your computer (https://desktop.github.com/). 
 
 Log into Visual Studio Code as follows:
  - ROLE: snowpark_workshop_role
@@ -47,6 +47,7 @@ Log into Visual Studio Code as follows:
 
 
 
+
 **Workshop Instructions**
 
 **Step 1 - Walk through Snowpark Overview Deck**
@@ -55,3 +56,8 @@ Log into Visual Studio Code as follows:
 
 **Step 3 - Walk through an run Snowpark_For_Python notebook**
 https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_For_Python.ipynb
+Click on the Green button to get the files in GitHub Desktop.
+Then select the Open in Visual Studio Code button
+![image](https://user-images.githubusercontent.com/120119246/227010286-4db464d3-03f7-460c-942a-1b8d3498a813.png)
+
+
