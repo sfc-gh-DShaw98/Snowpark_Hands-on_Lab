@@ -71,9 +71,18 @@ Log into Visual Studio Code as follows:
   - schema: campaign_demo
 ![image](https://user-images.githubusercontent.com/120119246/227032958-a69b85a5-8546-4446-8103-02763436c7b8.png)
 
+Trying to determine your Snowflake account name? Log into Snowflake. Click your account on the bottom left corner. Select the account to expose the details. Click to _copy account identifier_.
+![image](https://user-images.githubusercontent.com/120119246/227042133-77525131-d482-46e4-b666-4ab82dfe9232.png)
+
+
 - Go to the Snowpark_For_Python.ipynb file
+- Ensure you have selected snowpark (Python 3.8.13) as your Python kernel
+- ![image](https://user-images.githubusercontent.com/120119246/227042426-9748ad79-6941-4508-873d-18b1f9fb1398.png)
+
 - Read through the Objective and Instructions
 - Execute the code to import required Snowpark, json, pandas and logging libraries
+- ![image](https://user-images.githubusercontent.com/120119246/227033232-3cc2a43e-53cb-4469-8413-6a2658048481.png)
+
 - Execute the code to user your connection.json file 
 
 
