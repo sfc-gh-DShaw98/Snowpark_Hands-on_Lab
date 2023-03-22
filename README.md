@@ -1,7 +1,7 @@
 # Snowpark_Hands-on_Lab
 Detailed instructions for setting up and running Snowpark hands-on lab.
 
-**What You'll Need**
+****What You'll Need****
 You will need the following things before beginning:
 
 - A Snowflake Account
@@ -10,6 +10,8 @@ You will need the following things before beginning:
 - A Python Environment and Python IDE or Code Editor. We recommend Visual Studio Code. https://code.visualstudio.com/
 - Access to Git to fork the Snowpark_Hands-on_Lab clone locally
 
+Prerequisites
+
 
 
 
@@ -17,17 +19,23 @@ You will need the following things before beginning:
 
 **Snowflake Environment Setup**
 
-Log into Snowflake as AccountAdmin to run the Snowpark_Hands-on_Lab_SF_setup code. https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_Hands-on_Lab_SF_setup
-
-This code is required to create all the required Snowflake Database Roles, Database, Schema, Warehouse and to grant required permissions.
-
-Step through and run each line to ensure all code runs without error.
+- Log into your Snowflake account and switch to ACCOUNTADMIN role
+- Click on Admin and then Billing & Terms on the left side panel
+- On the Terms and Billing tab, read and accept terms to continue with the workshop
+- Create a new worksheet and run the Snowpark_Hands-on_Lab_SF_setup code. https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_Hands-on_Lab_SF_setup. This code is required to create all the required Snowflake Database Roles, Database, Schema, Warehouse and to grant required permissions. Step through and run each line to ensure all code runs without error.
 ![image](https://user-images.githubusercontent.com/120119246/226479301-26ed74a1-6d12-4e82-afef-081622a0fc50.png)
 
 
 **Python Environment Setup**
 
-We suggest Visual Studio Code (https://code.visualstudio.com/Suggest) be installed on your computer. Check out the Visual Studio Code homepage for a link to the download page. Ensure the Python extension is installed. Search for and install the "Python" extension (from Microsoft) in the Extensions pane in VS Code. Also ensure Snowflake extension installed. Search for and install the "Snowflake" extension (from Snowflake) in the Extensions pane in VS Code.
+- Create and Activate Conda Environment (OR, use any other Python environment with Python 3.8). 
+- conda create --name snowpark -c https://repo.anaconda.com/pkgs/snowflake python=3.8
+- conda activate snowpark
+- Install Snowpark for Python, Streamlit and other libraries in Conda environment
+- conda install -c https://repo.anaconda.com/pkgs/snowflake snowflake-snowpark-python pandas notebook scikit-learn cachetools
+- Update connection.json with your Snowflake account details and credentials
+
+TIP: We suggest installing Visual Studio Code (https://code.visualstudio.com/Suggest) on your computer. Check out the Visual Studio Code homepage for a link to the download page. Ensure the Python extension is installed. Search for and install the "Python" extension (from Microsoft) in the Extensions pane in VS Code. Also ensure Snowflake extension installed. Search for and install the "Snowflake" extension (from Snowflake) in the Extensions pane in VS Code.
 
 Log into Visual Studio Code as follows:
  - ROLE: snowpark_workshop_role
