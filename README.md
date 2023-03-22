@@ -15,7 +15,7 @@ You will need the following things before beginning:
 
 **Pre-Workshop Instructions**
 
-**Pre-Workshop Step 1 - Snowflake Environment Setup**
+**Snowflake Environment Setup**
 
 Log into Snowflake as AccountAdmin to run the Snowpark_Hands-on_Lab_SF_setup code. https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_Hands-on_Lab_SF_setup
 
@@ -25,7 +25,7 @@ Step through and run each line to ensure all code runs without error.
 ![image](https://user-images.githubusercontent.com/120119246/226479301-26ed74a1-6d12-4e82-afef-081622a0fc50.png)
 
 
-**Pre-Workshop Step 2 - Python Environment Setup**
+**Python Environment Setup**
 
 We suggest Visual Studio Code (https://code.visualstudio.com/Suggest) be installed on your computer. Check out the Visual Studio Code homepage for a link to the download page. Ensure the Python extension is installed. Search for and install the "Python" extension (from Microsoft) in the Extensions pane in VS Code. Also ensure Snowflake extension installed. Search for and install the "Snowflake" extension (from Snowflake) in the Extensions pane in VS Code.
 
