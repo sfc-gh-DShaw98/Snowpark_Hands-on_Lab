@@ -1,7 +1,7 @@
 # Snowpark_Hands-on_Lab
 Detailed instructions for setting up and running Snowpark hands-on lab.
 
-****What You'll Need****
+**What You'll Need**
 You will need the following things before beginning:
 
 - A Snowflake Account
@@ -36,7 +36,7 @@ Prerequisites
 - conda install -c https://repo.anaconda.com/pkgs/snowflake snowflake-snowpark-python pandas notebook scikit-learn cachetools
 - Update connection.json with your Snowflake account details and credentials
 
-TIP: We suggest installing Visual Studio Code (https://code.visualstudio.com/Suggest) on your computer. Check out the Visual Studio Code homepage for a link to the download page. Ensure the Python extension is installed. Search for and install the "Python" extension (from Microsoft) in the Extensions pane in VS Code. Also ensure Snowflake extension installed. Search for and install the "Snowflake" extension (from Snowflake) in the Extensions pane in VS Code. We also recommend installing GitHub Desktop on your computer (https://desktop.github.com/). 
+**TIP:** We suggest installing Visual Studio Code (https://code.visualstudio.com/Suggest) on your computer. Check out the Visual Studio Code homepage for a link to the download page. Ensure the Python extension is installed. Search for and install the "Python" extension (from Microsoft) in the Extensions pane in VS Code. Also ensure Snowflake extension installed. Search for and install the "Snowflake" extension (from Snowflake) in the Extensions pane in VS Code. We also recommend installing GitHub Desktop on your computer (https://desktop.github.com/). 
 
 Log into Visual Studio Code as follows:
  - ROLE: snowpark_workshop_role
@@ -80,7 +80,7 @@ Log into Visual Studio Code as follows:
 <img width="788" alt="image" src="https://user-images.githubusercontent.com/120119246/227278282-5837fe1b-e239-4f78-bbbc-0bec1c426587.png">
 
 
-Trying to determine your Snowflake account name? Log into Snowflake. Click your account on the bottom left corner. Select the account to expose the details. Click to _copy account identifier_.
+**TIP:** Trying to determine your Snowflake account name? Log into Snowflake. Click your account on the bottom left corner. Select the account to expose the details. Click to _copy account identifier_.
 
 ![image](https://user-images.githubusercontent.com/120119246/227042133-77525131-d482-46e4-b666-4ab82dfe9232.png)
 
