@@ -70,6 +70,9 @@ Log into Visual Studio Code as follows:
   - database: snowpark_workshop
   - schema: campaign_demo
 ![image](https://user-images.githubusercontent.com/120119246/227032958-a69b85a5-8546-4446-8103-02763436c7b8.png)
+- Ensure you save the updated connection.json file
+<img width="788" alt="image" src="https://user-images.githubusercontent.com/120119246/227272657-8451dd9e-203e-4b6d-8a0a-5453543ce6ac.png">
+
 
 Trying to determine your Snowflake account name? Log into Snowflake. Click your account on the bottom left corner. Select the account to expose the details. Click to _copy account identifier_.
 ![image](https://user-images.githubusercontent.com/120119246/227042133-77525131-d482-46e4-b666-4ab82dfe9232.png)
