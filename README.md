@@ -102,10 +102,10 @@ Log into Visual Studio Code as follows:
 <img width="1280" alt="image" src="https://user-images.githubusercontent.com/120119246/227278435-bdfbf9cb-b5fe-4fb4-8375-c185e3485dc6.png">
 
 
-- Work through the notebook and execute each cell. Ensure you have no errors.
-<img width="1280" alt="image" src="https://user-images.githubusercontent.com/120119246/227285715-6bfb7bd8-cecc-4ee9-b2de-faf29a57a7c1.png">
-
-
+- Walk through the notebook and execute each cell, ensuring you have no errors.
 - When you encounter **"YOUR TURN"**, update the cell as needed and execute.
+
+<img width="1280" alt="image" src="https://user-images.githubusercontent.com/120119246/227287276-77d3c516-f082-4321-8a31-7bd5645abfd5.png">
+
  
 **TIP:** Check the Snowpark_Hands-on-Lab_Solution (https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_For_Python_Solution.ipynb) if you need assistance.
