@@ -1,7 +1,7 @@
 # Snowpark_Hands-on_Lab
 Detailed instructions for setting up and running Snowpark hands-on lab.
 
-**What You'll Need**
+***What You'll Need***
 You will need the following things before beginning:
 
 - A Snowflake Account
@@ -10,12 +10,8 @@ You will need the following things before beginning:
 - A Python Environment and Python IDE or Code Editor. We recommend Visual Studio Code. https://code.visualstudio.com/
 - Access to Git to fork the Snowpark_Hands-on_Lab clone locally
 
-Prerequisites
 
-
-
-
-**Pre-Workshop Instructions**
+***Pre-Workshop Instructions***
 
 **Snowflake Environment Setup**
 
