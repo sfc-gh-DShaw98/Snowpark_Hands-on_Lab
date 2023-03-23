@@ -88,7 +88,7 @@ https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark%20Han
   - Type conda activate snowpark and ensure snowpark is activated
   - ![image](https://user-images.githubusercontent.com/120119246/227347398-7f12facb-3836-4e4d-910c-3dc1537cad26.png)
 
-  - Go to View, select Command Palette, type Python: Select Interpreter, select Snowpark_Hands-on_Lab
+  - If snowpark and Snowpark_Hands-on_Lab % is not showing in your terminal, go to View, select Command Palette, type Python: Select Interpreter, select Snowpark_Hands-on_Lab
   - ![image](https://user-images.githubusercontent.com/120119246/227348260-bce3905f-aa6a-4aa4-ae1e-df0f12008821.png)
 
 
