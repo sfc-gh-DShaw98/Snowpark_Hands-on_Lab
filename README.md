@@ -112,6 +112,7 @@ https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark%20Han
 **TIP:** Check the Snowpark_Hands-on-Lab_Solution (https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_For_Python_Solution.ipynb) if you need assistance.
 
 - As you execute code in Snowpark, you can easily track how Snowflake is processing Snowpark DataFrame functions from both the Python IDE and Snowflake's Query History.
+ 
 ![image](https://user-images.githubusercontent.com/120119246/227299864-31ee5445-5448-47a4-8286-ee467209b490.png)
 <img width="1735" alt="image" src="https://user-images.githubusercontent.com/120119246/227299967-f46ee93b-4399-4195-91d3-9142ef7a7232.png">
 
