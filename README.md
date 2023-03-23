@@ -49,6 +49,7 @@ Log into Visual Studio Code as follows:
 # Workshop Instructions
 
 **Step 1 - Walk through Snowpark Overview Deck**
+https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark%20Hands-on%20Lab%20PPT.pptx
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/120119246/227280137-0d0066c7-ed13-49e7-85e2-ba7d7225f556.png">
 
 **Step 2 - Ensure participants can access hands-on lab instructions, Snowflake, and Visual Studio Code (or other Python IDE)** 
