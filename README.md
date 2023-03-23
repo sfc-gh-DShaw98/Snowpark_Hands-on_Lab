@@ -83,6 +83,13 @@ https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark%20Han
 **TIP:** Trying to determine your Snowflake account name? Log into Snowflake. Click your account on the bottom left corner. Select the account to expose the details. Click to _copy account identifier_.
 
 ![image](https://user-images.githubusercontent.com/120119246/227042133-77525131-d482-46e4-b666-4ab82dfe9232.png)
+- Ensure your environment is configured to leverage Snowpark (Python 3.8.13).
+  - Open a New Terminal
+  - Type conda activate snowpark and ensure snowpark is activated
+  - ![image](https://user-images.githubusercontent.com/120119246/227347398-7f12facb-3836-4e4d-910c-3dc1537cad26.png)
+
+  - Go to View, select Command Palette, type Python: Select Interpreter, select Snowpark_Hands-on_Lab
+  - ![image](https://user-images.githubusercontent.com/120119246/227348260-bce3905f-aa6a-4aa4-ae1e-df0f12008821.png)
 
 
 **Step 4 - Hands-on Lab Time!**
