@@ -23,6 +23,7 @@ Prerequisites
 - Click on Admin and then Billing & Terms on the left side panel
 - On the Terms and Billing tab, read and accept terms to continue with the workshop
 - Create a new worksheet and run the Snowpark_Hands-on_Lab_SF_setup code. https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_Hands-on_Lab_SF_setup. This code is required to create all the required Snowflake Database Roles, Database, Schema, Warehouse and to grant required permissions. Step through and run each line to ensure all code runs without error.
+
 ![image](https://user-images.githubusercontent.com/120119246/226479301-26ed74a1-6d12-4e82-afef-081622a0fc50.png)
 
 
@@ -58,7 +59,9 @@ Log into Visual Studio Code as follows:
 - Navigate to the GitHub repo for this lab: https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_For_Python.ipynb
 - Click on the Green button to get the files in GitHub Desktop
 - Select the Open in Visual Studio Code button
+
 ![image](https://user-images.githubusercontent.com/120119246/227010729-5e46c1d4-5ccd-47d1-936b-fa36e6e868ac.png)
+
 ![image](https://user-images.githubusercontent.com/120119246/227010286-4db464d3-03f7-460c-942a-1b8d3498a813.png)
 
 - Go to the connection.json file and update as follows:
@@ -69,25 +72,34 @@ Log into Visual Studio Code as follows:
   - warehouse: snowparkws_wh
   - database: snowpark_workshop
   - schema: campaign_demo
+
 ![image](https://user-images.githubusercontent.com/120119246/227032958-a69b85a5-8546-4446-8103-02763436c7b8.png)
+
 - Ensure you save the updated connection.json file
-<img width="788" alt="image" src="https://user-images.githubusercontent.com/120119246/227272657-8451dd9e-203e-4b6d-8a0a-5453543ce6ac.png">
+
+<img width="788" alt="image" src="https://user-images.githubusercontent.com/120119246/227278282-5837fe1b-e239-4f78-bbbc-0bec1c426587.png">
 
 
 Trying to determine your Snowflake account name? Log into Snowflake. Click your account on the bottom left corner. Select the account to expose the details. Click to _copy account identifier_.
+
 ![image](https://user-images.githubusercontent.com/120119246/227042133-77525131-d482-46e4-b666-4ab82dfe9232.png)
 
 
 - Go to the Snowpark_For_Python.ipynb file
 - Ensure you have selected snowpark (Python 3.8.13) as your Python kernel
+
 ![image](https://user-images.githubusercontent.com/120119246/227043146-9a9bde34-3afc-4285-9453-a18fe7556e55.png)
 
 
 - Read through the Objective and Instructions
 - Execute the code to import required Snowpark, json, pandas and logging libraries. Ensure you get a green check.
+
 ![image](https://user-images.githubusercontent.com/120119246/227043084-c92a36ac-7cd7-4fcf-9163-d8c86f458fbe.png)
 
 
 - Execute the code to user your connection.json file 
+
+<img width="1280" alt="image" src="https://user-images.githubusercontent.com/120119246/227278435-bdfbf9cb-b5fe-4fb4-8375-c185e3485dc6.png">
+
 
 
