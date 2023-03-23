@@ -2,6 +2,7 @@
 Detailed instructions for setting up and running Snowpark hands-on lab.
 
 ***What You'll Need***
+
 You will need the following things before beginning:
 
 - A Snowflake Account
@@ -11,7 +12,7 @@ You will need the following things before beginning:
 - Access to Git to fork the Snowpark_Hands-on_Lab clone locally
 
 
-***Pre-Workshop Instructions***
+# Pre-Workshop Instructions
 
 **Snowflake Environment Setup**
 
@@ -45,13 +46,13 @@ Log into Visual Studio Code as follows:
 
 
 
-**Workshop Instructions**
+# Workshop Instructions
 
 **Step 1 - Walk through Snowpark Overview Deck**
 
 **Step 2 - Ensure participants can access hands-on lab instructions, Snowflake, and Visual Studio Code (or other Python IDE)** 
 
-**Step 3 - Walk through an run Snowpark_For_Python notebook**
+**Step 3 - Walk through an run Snowpark_For_Python notebook setup**
 - Navigate to the GitHub repo for this lab: https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_For_Python.ipynb
 - Click on the Green button to get the files in GitHub Desktop
 - Select the Open in Visual Studio Code button
@@ -81,6 +82,7 @@ Log into Visual Studio Code as follows:
 ![image](https://user-images.githubusercontent.com/120119246/227042133-77525131-d482-46e4-b666-4ab82dfe9232.png)
 
 
+**Step 4 - Hands-on Lab Time!**
 - Go to the Snowpark_For_Python.ipynb file
 - Ensure you have selected snowpark (Python 3.8.13) as your Python kernel
 
