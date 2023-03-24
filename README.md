@@ -53,7 +53,7 @@ Log into Visual Studio Code as follows:
 ![image](https://user-images.githubusercontent.com/120119246/227280137-0d0066c7-ed13-49e7-85e2-ba7d7225f556.png)
 
 **Step 2 - Ensure participants can access hands-on lab instructions, Snowflake, and Visual Studio Code (or other Python IDE)** 
-![image](https://user-images.githubusercontent.com/120119246/227599512-a14b3210-9b78-4457-a701-21273b1256c6.png)
+![image](https://user-images.githubusercontent.com/120119246/227599820-7d9b215a-d20e-438b-b006-162e1230d768.png)
 
 
 
