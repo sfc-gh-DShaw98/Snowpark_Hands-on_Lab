@@ -126,7 +126,7 @@ Log into Visual Studio Code as follows:
 
 # Post-Workshop Instructions
 
-- When you have completed the Snowpark Hands-on Lab, run the Snowflake_Hands-On_Lab_SF_Cleanup script:
+- When you have completed the Snowpark Hands-on Lab, run the [Snowflake_Hands-On_Lab_SF_Cleanup script](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_Hands-on_Lab_SF_Cleanup):
   - Log into your Snowflake account and switch to ACCOUNTADMIN role
   - Create a new worksheet and run the [Snowpark_Hands-on_Lab_SF_Cleanup code](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_Hands-on_Lab_SF_Cleanup). This code is required to drop the Snowflake Database, Role, and Warehouse used in the hands-on lab.
   
