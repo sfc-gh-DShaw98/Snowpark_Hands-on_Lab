@@ -127,9 +127,11 @@ Log into Visual Studio Code as follows:
 ![image](https://user-images.githubusercontent.com/120119246/227299864-31ee5445-5448-47a4-8286-ee467209b490.png)
 ![image](https://user-images.githubusercontent.com/120119246/227299967-f46ee93b-4399-4195-91d3-9142ef7a7232.png)
 
+- Once completed, this asset is designed to be educational and help demonstrate the architecture of Snowpark. Step 5 is a notebook designed to be a framework for training and deploying a model.
 
 **Step 5 - Modeling Scale Example**
-
+- Go to the [Snowpark_Model_At_Scale_XGBoost](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_Model_At_Scale_xgboost_tpcds_distribute.ipynb) file
+This notebook can be used as an example to follow when wanting to train and deploy your first end to end model with Snowpark. This features a large dataset, available in the Snowflake Marketplace, and will be predicting the lifetime value of a customer using XGboost regression.
 
 # Post-Workshop Instructions
 
