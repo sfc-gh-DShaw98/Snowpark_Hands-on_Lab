@@ -53,7 +53,7 @@ Log into Visual Studio Code as follows:
 ![image](https://user-images.githubusercontent.com/120119246/227280137-0d0066c7-ed13-49e7-85e2-ba7d7225f556.png)
 
 **Step 2 - Ensure participants can access hands-on lab instructions, Snowflake, and Visual Studio Code (or other Python IDE)** 
-![image](https://user-images.githubusercontent.com/120119246/227280880-695b8451-9a0e-40d6-8139-a2dbff5b5863.png)
+![image](https://user-images.githubusercontent.com/120119246/227597950-8f826bbb-9237-4bf1-939e-1e7f16c95210.png)
 
 **Step 3 - Walk through an run Snowpark_For_Python notebook setup**
 - Navigate to the [GitHub repo](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab.git) for this lab
