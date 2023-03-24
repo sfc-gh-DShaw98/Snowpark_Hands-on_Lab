@@ -8,7 +8,7 @@ You will need the following things before beginning:
 - A Snowflake Account
 - A Snowflake user created with ACCOUNTADMIN permissions. This user will be used to get things setup in Snowflake.
 - Anaconda Terms & Conditions accepted. See Getting Started section in Third-Party Packages. https://docs.snowflake.com/en/developer-guide/udf/python/udf-python-packages.html#getting-started
-- A Python Environment and Python IDE or Code Editor. We recommend Visual Studio Code. https://code.visualstudio.com/
+- A Python Environment and Python IDE or Code Editor. We recommend [Visual Studio Code](https://code.visualstudio.com/)
 - Access to Git to fork the Snowpark_Hands-on_Lab clone locally
 
 
@@ -19,7 +19,7 @@ You will need the following things before beginning:
 - Log into your Snowflake account and switch to ACCOUNTADMIN role
 - Click on Admin and then Billing & Terms on the left side panel
 - On the Terms and Billing tab, read and accept terms to continue with the workshop
-- Create a new worksheet and run the Snowpark_Hands-on_Lab_SF_setup code. https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_Hands-on_Lab_SF_setup. This code is required to create all the required Snowflake Database Roles, Database, Schema, Warehouse and to grant required permissions. Step through and run each line to ensure all code runs without error.
+- Create a new worksheet and run the [Snowpark_Hands-on_Lab_SF_setup code](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_Hands-on_Lab_SF_setup). This code is required to create all the required Snowflake Database Roles, Database, Schema, Warehouse and to grant required permissions. Step through and run each line to ensure all code runs without error.
 
 ![image](https://user-images.githubusercontent.com/120119246/226479301-26ed74a1-6d12-4e82-afef-081622a0fc50.png)
 
@@ -33,7 +33,7 @@ You will need the following things before beginning:
 - conda install -c https://repo.anaconda.com/pkgs/snowflake snowflake-snowpark-python pandas notebook scikit-learn cachetools
 - Update connection.json with your Snowflake account details and credentials
 
-**TIP:** We suggest installing Visual Studio Code (https://code.visualstudio.com/Suggest) on your computer. Check out the Visual Studio Code homepage for a link to the download page. Ensure the Python extension is installed. Search for and install the "Python" extension (from Microsoft) in the Extensions pane in VS Code. Also ensure Snowflake extension installed. Search for and install the "Snowflake" extension (from Snowflake) in the Extensions pane in VS Code. We also recommend installing GitHub Desktop on your computer (https://desktop.github.com/). 
+**TIP:** We suggest installing [Visual Studio Code](https://code.visualstudio.com/Suggest) on your computer. Check out the Visual Studio Code homepage for a link to the download page. Ensure the Python extension is installed. Search for and install the "Python" extension (from Microsoft) in the Extensions pane in VS Code. Also ensure Snowflake extension installed. Search for and install the "Snowflake" extension (from Snowflake) in the Extensions pane in VS Code. We also recommend installing [GitHub Desktop](https://desktop.github.com/) on your computer. 
 
 Log into Visual Studio Code as follows:
  - ROLE: snowpark_workshop_role
@@ -53,10 +53,10 @@ Log into Visual Studio Code as follows:
 ![image](https://user-images.githubusercontent.com/120119246/227280137-0d0066c7-ed13-49e7-85e2-ba7d7225f556.png)
 
 **Step 2 - Ensure participants can access hands-on lab instructions, Snowflake, and Visual Studio Code (or other Python IDE)** 
-<img width="1735" alt="image" src="https://user-images.githubusercontent.com/120119246/227280880-695b8451-9a0e-40d6-8139-a2dbff5b5863.png">
+![image](https://user-images.githubusercontent.com/120119246/227280880-695b8451-9a0e-40d6-8139-a2dbff5b5863.png)
 
 **Step 3 - Walk through an run Snowpark_For_Python notebook setup**
-- Navigate to the GitHub repo for this lab: https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_For_Python.ipynb
+- Navigate to the [GitHub repo](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_For_Python.ipynb) for this lab
 - Click on the Green button to get the files in GitHub Desktop
 - Select the Open in Visual Studio Code button
 
@@ -77,7 +77,7 @@ Log into Visual Studio Code as follows:
 
 - Ensure you save the updated connection.json file
 
-<img width="788" alt="image" src="https://user-images.githubusercontent.com/120119246/227278282-5837fe1b-e239-4f78-bbbc-0bec1c426587.png">
+![image](https://user-images.githubusercontent.com/120119246/227278282-5837fe1b-e239-4f78-bbbc-0bec1c426587.png)
 
 
 **TIP:** Trying to determine your Snowflake account name? Log into Snowflake. Click your account on the bottom left corner. Select the account to expose the details. Click to _copy account identifier_.
@@ -107,20 +107,20 @@ Log into Visual Studio Code as follows:
 
 - Execute the code to user your connection.json file 
 
-<img width="1280" alt="image" src="https://user-images.githubusercontent.com/120119246/227278435-bdfbf9cb-b5fe-4fb4-8375-c185e3485dc6.png">
+![image](https://user-images.githubusercontent.com/120119246/227278435-bdfbf9cb-b5fe-4fb4-8375-c185e3485dc6.png)
 
 
 - Walk through the notebook and execute each cell, ensuring you have no errors.
 - When you encounter **"YOUR TURN"**, update the cell as needed and execute.
 
-<img width="1280" alt="image" src="https://user-images.githubusercontent.com/120119246/227287276-77d3c516-f082-4321-8a31-7bd5645abfd5.png">
+![image](https://user-images.githubusercontent.com/120119246/227287276-77d3c516-f082-4321-8a31-7bd5645abfd5.png)
 
  
-**TIP:** Check the Snowpark_Hands-on-Lab_Solution (https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_For_Python_Solution.ipynb) if you need assistance.
+**TIP:** Check the [Snowpark_Hands-on-Lab_Solution](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_For_Python_Solution.ipynb) if you need assistance.
 
 - As you execute code in Snowpark, you can easily track how Snowflake is processing Snowpark DataFrame functions from both the Python IDE and Snowflake's Query History.
  
 ![image](https://user-images.githubusercontent.com/120119246/227299864-31ee5445-5448-47a4-8286-ee467209b490.png)
-<img width="1735" alt="image" src="https://user-images.githubusercontent.com/120119246/227299967-f46ee93b-4399-4195-91d3-9142ef7a7232.png">
+![image](https://user-images.githubusercontent.com/120119246/227299967-f46ee93b-4399-4195-91d3-9142ef7a7232.png)
 
 
