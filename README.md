@@ -21,7 +21,7 @@ You will need the following things before beginning:
 - On the Terms and Billing tab, read and accept terms to continue with the workshop
 - Create a new worksheet and run the [Snowpark_Hands-on_Lab_SF_setup code](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_Hands-on_Lab_SF_setup). This code is required to create all the required Snowflake Database Roles, Database, Schema, Warehouse and to grant required permissions. Step through and run each line to ensure all code runs without error.
 - Ensure each Snowpark Hands-on Lab participant has been granted access to Role snowpark_workshop_role
-  - GRANT USER XXXX to ROLE snowpark_workshop_role;
+  - GRANT ROLE snowpark_workshop_role to USER <user_name>;
 
 ![image](https://user-images.githubusercontent.com/120119246/226479301-26ed74a1-6d12-4e82-afef-081622a0fc50.png)
 
