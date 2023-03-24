@@ -56,7 +56,7 @@ Log into Visual Studio Code as follows:
 ![image](https://user-images.githubusercontent.com/120119246/227280880-695b8451-9a0e-40d6-8139-a2dbff5b5863.png)
 
 **Step 3 - Walk through an run Snowpark_For_Python notebook setup**
-- Navigate to the [GitHub repo]([(https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab)) for this lab
+- Navigate to the [GitHub repo](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab.git) for this lab
 - Click on the Green button to get the files in GitHub Desktop
 - Select the Open in Visual Studio Code button
 
