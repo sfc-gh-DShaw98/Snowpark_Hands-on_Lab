@@ -124,6 +124,9 @@ Log into Visual Studio Code as follows:
 ![image](https://user-images.githubusercontent.com/120119246/227299967-f46ee93b-4399-4195-91d3-9142ef7a7232.png)
 
 
+**Step 5 - Modeling Scale Example**
+
+
 # Post-Workshop Instructions
 
 - When you have completed the Snowpark Hands-on Lab, run the [Snowflake_Hands-On_Lab_SF_Cleanup script](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_Hands-on_Lab_SF_Cleanup):
