@@ -91,12 +91,13 @@ Log into Visual Studio Code as follows:
   - If snowpark and Snowpark_Hands-on_Lab % is not showing in your terminal, go to View, select Command Palette, type Python: Select Interpreter, select Snowpark_Hands-on_Lab
   - ![image](https://user-images.githubusercontent.com/120119246/227348260-bce3905f-aa6a-4aa4-ae1e-df0f12008821.png)
 
+**Step 4 - Hands-on Lab Time!**
+- Go to the [Snowpark_For_Python.ipynb](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_For_Python.ipynb) file
+
 - Ensure you have selected snowpark (Python 3.8.13) as your Python kernel
 ![image](https://user-images.githubusercontent.com/120119246/227043146-9a9bde34-3afc-4285-9453-a18fe7556e55.png)
 
 
-**Step 4 - Hands-on Lab Time!**
-- Go to the [Snowpark_For_Python.ipynb](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_For_Python.ipynb) file
 - Read through the Objective and Instructions
 - Execute the code to import required Snowpark, json, pandas and logging libraries. Ensure you get a green check.
 
