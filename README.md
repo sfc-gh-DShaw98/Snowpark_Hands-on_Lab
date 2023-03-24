@@ -31,7 +31,7 @@ You will need the following things before beginning:
 - Create and Activate Conda Environment (OR, use any other Python environment with Python 3.8). 
 - conda create --name snowpark -c https://repo.anaconda.com/pkgs/snowflake python=3.8
 - conda activate snowpark
-- Install Snowpark for Python, Streamlit, sklearn and other libraries in Conda environment
+- Install Snowpark for Python, Streamlit, scikit-learn and other libraries in Conda environment
 - conda install -c https://repo.anaconda.com/pkgs/snowflake snowflake-snowpark-python pandas notebook scikit-learn cachetools
 - Update connection.json with your Snowflake account details and credentials
 
