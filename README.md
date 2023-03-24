@@ -132,6 +132,7 @@ Log into Visual Studio Code as follows:
 **Step 5 - Modeling Scale Example**
 - Go to the [Snowpark_Model_At_Scale_XGBoost](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_Model_At_Scale_xgboost_tpcds_distribute.ipynb) file
 This notebook can be used as an example to follow when wanting to train and deploy your first end to end model with Snowpark. This features a large dataset, available in the Snowflake Marketplace, and will be predicting the lifetime value of a customer using XGboost regression.
+- Please pay attention to when/how feature sets and predictions are being written to tables back on Snowflake. These steps may look different depending on your business needs (archiving training feature sets, where the predictions should be stored, etc.). The code here is just an example of how these would be written to tables within snowflake. 
 
 # Post-Workshop Instructions
 
