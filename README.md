@@ -84,7 +84,7 @@ Log into Visual Studio Code as follows:
 ![image](https://user-images.githubusercontent.com/120119246/227278282-5837fe1b-e239-4f78-bbbc-0bec1c426587.png)
 
 
-**TIP:** Trying to determine your Snowflake account name? Log into Snowflake. Click your account on the bottom left corner. Select the account to expose the details. Click to _copy account identifier_ (example: SFSENORTHAMERICA-MAF_AWSEAST).
+**TIP:** Trying to determine your Snowflake account name? Log into Snowflake. Click your account on the bottom left corner. Select the account to expose the details. Click to _copy account identifier_. Replace the "." with "-". For example, NXAAXGQ.LRB86899 should be NXAAXGQ-LRB86899.
 
 ![image](https://user-images.githubusercontent.com/120119246/227042133-77525131-d482-46e4-b666-4ab82dfe9232.png)
 - Ensure your environment is configured to leverage Snowpark (Python 3.8.13).
