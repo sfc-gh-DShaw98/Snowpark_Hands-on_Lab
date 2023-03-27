@@ -130,7 +130,18 @@ Log into Visual Studio Code as follows:
 
 - Once completed, this asset is designed to be educational and help demonstrate the architecture of Snowpark. Step 5 is a notebook designed to be a framework for training and deploying a model.
 
-**Step 5 - Modeling Scale Example**
+**Step 5 - Streamlit App**
+Streamlit in Snowflake (SiS) is not yet available to most Snowflake accounts. As a result, we recommend running the Streamlit_Local_App.py version for this Hands-on Lab. 
+- Go to the Streamlit_Local_App.py file to review the code. Not necessary to run the app.
+- Open a new Terminal within your IDE (VS Code), or from the desktop and cd into the folder where Streamlit_Local_App.py is
+- Type "streamlit run Streamlit_Local_App.py" and press enter.
+- If this is your first time running Streamlit it will ask you for an email. Feel free to leave this blank and just press enter
+- If you get an error message when running the above line of code, try typing "conda deactivate <env_name>" then type the "streamlit run Streamlit_Local_App.py" command again.
+- A new browser window should open (as shown below). At this point you can interact with the Streamlit application.
+- Important to note that within this application, the user is giving inputs and the udf/model stored within a stage are being called to give predictions based on data presented by the app.
+- When you are finished, make sure to press ctrl+c or cmd+c to end the application before closing the browser tab. Otherwise this will lock up the terminal and it will need to be closed and re-opened.
+
+**Step 6 - Modeling Scale Example**
 - Go to the [Snowpark_Model_At_Scale_XGBoost](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_Model_At_Scale_xgboost_tpcds_distribute.ipynb) file
 This notebook can be used as an example to follow when wanting to train and deploy your first end to end model with Snowpark. This features a large dataset, available in your Snowflake account, and will be predicting the lifetime value of a customer using XGboost regression.
 - Please pay attention to when/how feature sets and predictions are being written to tables back on Snowflake. These steps may look different depending on your business needs (archiving training feature sets, where the predictions should be stored, etc.). The code here is just an example of how these would be written to tables within snowflake. 
