@@ -13,6 +13,7 @@ You will need the following things before beginning:
 
 
 # Pre-Workshop Instructions
+We recommend scheduling a call to review all Snowflake account setup and Python environment setup several days in advance for the Snowpark Hands-on Lab to ensure all pre-work is completed. This will allow the participants to focus solely on running through the three (3) hands-on lab notebooks which include:  
 
 **Snowflake Environment Setup**
 
