@@ -133,11 +133,18 @@ Log into Visual Studio Code as follows:
 **Step 5 - Streamlit App**
 Streamlit in Snowflake (SiS) is not yet available to most Snowflake accounts. As a result, we recommend running the Streamlit_Local_App.py version for this Hands-on Lab. 
 - Go to the Streamlit_Local_App.py file to review the code. Not necessary to run the app.
+![image](https://user-images.githubusercontent.com/120119246/227976404-d81ba8d1-2ed6-4465-b568-ee2905740b86.png)
+
 - Open a new Terminal within your IDE (VS Code), or from the desktop and cd into the folder where Streamlit_Local_App.py is
+
 - Type "streamlit run Streamlit_Local_App.py" and press enter.
 - If this is your first time running Streamlit it will ask you for an email. Feel free to leave this blank and just press enter
-- If you get an error message when running the above line of code, try typing "conda deactivate <env_name>" then type the "streamlit run Streamlit_Local_App.py" command again.
+- If you get an error message when running the above line of code, try typing "conda deactivate" then type the "streamlit run Streamlit_Local_App.py" command again.
+![image](https://user-images.githubusercontent.com/120119246/227977013-cb5c9021-aef3-4927-8b70-b766daba48e2.png)
+
 - A new browser window should open (as shown below). At this point you can interact with the Streamlit application.
+![image](https://user-images.githubusercontent.com/120119246/227977078-e44df135-f082-4acc-aa04-4f01f5684ac9.png)
+
 - Important to note that within this application, the user is giving inputs and the udf/model stored within a stage are being called to give predictions based on data presented by the app.
 - When you are finished, make sure to press ctrl+c or cmd+c to end the application before closing the browser tab. Otherwise this will lock up the terminal and it will need to be closed and re-opened.
 
