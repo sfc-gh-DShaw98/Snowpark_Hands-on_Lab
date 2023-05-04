@@ -5,10 +5,9 @@
 - Follow-up 7days after HOL for Snowpark use case discussion & pitch Snowflake PS Data Science offering 
 
 # Gitrepo Table of Contents:
-100_Demo1
-100_Demo2
-200_HOL
-300_Example
+- 100_Demo[https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/tree/main/100_Demo]
+- 200_HOL
+- 300_Example
 
 # Snowpark_Hands-on_Lab
 Detailed instructions for setting up and running Snowpark hands-on lab.
