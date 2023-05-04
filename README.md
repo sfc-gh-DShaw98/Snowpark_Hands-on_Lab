@@ -9,8 +9,8 @@
 - [200_HOL](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/tree/main/200_HOL)
 - [300_Example](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/tree/main/300_Example)
 
-# Snowpark_Hands-on_Lab
-Detailed instructions for setting up and running Snowpark hands-on lab.
+# 200-level Snowpark_Hands-on_Lab
+Detailed instructions for setting up and running the 200-level Snowpark hands-on lab.
 
 [Snowpark Python Syntax Ref Doc](https://docs.snowflake.com/ko/developer-guide/snowpark/reference/python/index.html)
 
@@ -62,7 +62,7 @@ Log into Visual Studio Code as follows:
 
 
 
-# Workshop Instructions
+# 200-level Snowpark Hands-On Lab/Workshop Instructions
 
 **Step 1 - Walk through Snowpark Overview Deck**
 [Snowpark Hands-on Lab Overview PPT](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark%20Hands-on%20Lab%20PPT.pptx)
@@ -73,7 +73,7 @@ Log into Visual Studio Code as follows:
 
 
 
-**Step 3 - Walk through an run Snowpark_For_Python notebook setup**
+**Step 3 - Walk through an run 200-level Snowpark_For_Python notebook setup**
 - Navigate to the [GitHub repo](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab.git) for this lab
 - Click on the Green button to get the files in GitHub Desktop
 - Select the Open in Visual Studio Code button
@@ -161,14 +161,14 @@ Streamlit in Snowflake (SiS) is not yet available to most Snowflake accounts. As
 - Important to note that within this application, the user is giving inputs and the udf/model stored within a stage are being called to give predictions based on data presented by the app.
 - When you are finished, make sure to press ctrl+c or cmd+c to end the application before closing the browser tab. Otherwise this will lock up the terminal and it will need to be closed and re-opened.
 
-**Step 6 - Modeling Scale Example**
-- Go to the [Snowpark_Model_At_Scale_XGBoost](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_Model_At_Scale_xgboost_tpcds_distribute.ipynb) file
+**Step 6 - 300-level Snowpark Leave-behind Modeling Scale Example**
+- Go to the [Snowpark_Model_At_Scale_XGBoost](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/300_Example/300_Example_Snowpark_Model_At_Scale_xgboost_tpcds_distribute.ipynb) file
 This notebook can be used as an example to follow when wanting to train and deploy your first end to end model with Snowpark. This features a large dataset, available in your Snowflake account, and will be predicting the lifetime value of a customer using XGboost regression.
 - Please pay attention to when/how feature sets and predictions are being written to tables back on Snowflake. These steps may look different depending on your business needs (archiving training feature sets, where the predictions should be stored, etc.). The code here is just an example of how these would be written to tables within snowflake. 
 
-# Post-Workshop Instructions
+# 200-level Post-Snowpark Hands-on Lab/Workshop Instructions
 
-- When you have completed the Snowpark Hands-on Lab, run the [Snowflake_Hands-On_Lab_SF_Cleanup script](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_Hands-on_Lab_SF_Cleanup):
+- When you have completed the Snowpark Hands-on Lab, run the [Snowflake_Hands-On_Lab_SF_Cleanup script](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/200_HOL/200_HOL_Setup/200_HOL_Snowpark_Hands-on_Lab_SF_Cleanup):
   - Log into your Snowflake account and switch to ACCOUNTADMIN role
-  - Create a new worksheet and run the [Snowpark_Hands-on_Lab_SF_Cleanup code](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/Snowpark_Hands-on_Lab_SF_Cleanup). This code is required to drop the Snowflake Database, Role, and Warehouse used in the hands-on lab.
+  - Create a new worksheet and run the [Snowpark_Hands-on_Lab_SF_Cleanup code](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/blob/main/200_HOL/200_HOL_Setup/200_HOL_Snowpark_Hands-on_Lab_SF_Cleanup). This code is required to drop the Snowflake Database, Role, and Warehouse used in the hands-on lab.
   
