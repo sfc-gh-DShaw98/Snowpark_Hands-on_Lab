@@ -1,3 +1,15 @@
+# Suggested Snowpark Enablement Flow
+- Initial Snowpark Overview presentation/value proposal (whiteboard) including Snowpark 100-level Demos
+- Meeting to setup environment for Snowpark Hands-on Lab
+- Snowpark Hands-on Lab Workshop to walk through 200-level Demo and share 300-level overview (leave-behind example)
+- Follow-up 7days after HOL for Snowpark use case discussion & pitch Snowflake PS Data Science offering 
+
+# Gitrepo Table of Contents:
+100_Demo1
+100_Demo2
+200_HOL
+300_Example
+
 # Snowpark_Hands-on_Lab
 Detailed instructions for setting up and running Snowpark hands-on lab.
 
