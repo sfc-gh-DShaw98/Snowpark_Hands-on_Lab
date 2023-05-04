@@ -1,3 +1,0 @@
-DROP DATABASE snowpark_workshop;
-DROP ROLE snowpark_workshop_role;
-DROP WAREHOUSE snowparkws_wh;
