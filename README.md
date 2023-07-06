@@ -2,7 +2,8 @@
 - Initial Snowpark Overview presentation/value proposal (whiteboard) including Snowpark [100-level_demos](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/tree/main/100_Demo)
 - Meeting to setup environment for Snowpark Hands-on Lab
 - Snowpark Hands-on Lab Workshop to walk through [200-level Demo](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/tree/main/200_HOL) and share [300-level overview (leave-behind example)](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/tree/main/300_Example)
-- Follow-up 7days after HOL for Snowpark use case discussion & pitch Snowflake PS Data Science offering 
+- Follow-up 7days after HOL for Snowpark use case discussion & pitch Snowflake PS Data Science offering
+- Share [Spark to Snowflake Migration Guide](https://go.snowflake.net/MjUyLVJGTy0yMjcAAAGMyvLJAjLe7lRvBIwQ_y61M6yNqzmAH_K7mcAJbQfszvJkXhZAjN_Qf48i9re9IW5kSS2wsXY=) 
 
 # Gitrepo Table of Contents:
 - [100_Demo](https://github.com/sfc-gh-DShaw98/Snowpark_Hands-on_Lab/tree/main/100_Demo)
